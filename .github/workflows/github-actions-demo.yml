@@ -19,6 +19,7 @@ on:
 
           - name: List all files in the repo
             run: |
-              echo "The Repo ${{ githuv.repository }} contains the folowwing tree."
+              echo "The Repo ${{ githuv.repository }} contains the folowwing tree"
+              tree
           
     
